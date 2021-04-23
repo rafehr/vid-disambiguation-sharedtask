@@ -39,3 +39,10 @@ The participating teams will be required to submit the test data with the predic
 It is the same as the training data with the only difference being that in place of the label one can find the placeholder ```NONE```. These placeholders are to be replaced by the labels the systems predict.
 
 We plan to use [CodaLab](https://codalab.org/) for evaluation, but as of this writing there seem to be some technical difficulties which need to be resolved before we can create the CodaLab website (it is this [issue](https://github.com/codalab/codalab-competitions/issues/2931) we're experiencing). But as soon the CodaLab website is ready we will add a link to it here.
+
+## Organizers
+
+- [Rafael Ehren](https://www.isi.hhu.de/bereiche-des-institutes/abteilung-fuer-computerlinguistik/unser-team/computerlinguistik?tt_address%5Bfunktion%5D=19133&tt_address%5Bperson%5D=16061&cHash=f19f3068205fd390e30e2dc392ac23bd)
+- [Laura Kallmeyer](https://user.phil.hhu.de/kallmeyer/)
+- [Timm Lichte](http://timm-lichte.de/)
+- [Jakub Waszczuk](https://user.phil.hhu.de/~waszczuk/)
