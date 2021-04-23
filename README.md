@@ -8,7 +8,7 @@ The identification of verbal multiword expressions (VMWEs) is a well known chall
 
 ## The data
 
-The shared task data consists of 9906 sentences with either an instance of a German VID type or its literal counterpart. The set of VID types was pre-selected, thus it constitutes a lexical sample data set. It is a merger of the [COLF-VID](https://www.aclweb.org/anthology/2020.figlang-1.29.pdf) and the [German SemEval-2013 task 5b](https://www.aclweb.org/anthology/S13-2007.pdf) data set. Consider this example:
+The shared task data consists of 9906 sentences with either an instance of a German VID type or its literal counterpart. The set of VID types was pre-selected, thus it constitutes a lexical sample data set. It is a merger of the [COLF-VID](https://www.aclweb.org/anthology/2020.figlang-1.29.pdf) and the [German SemEval-2013 task 5b](https://www.aclweb.org/anthology/S13-2007.pdf) data sets. Consider this example:
 
 ```
 T890202.28.4077	in wasser fallen	figuratively	Der Streit ums Hormonfleisch zwischen USA und EG provozierte den Polizeieinsatz . Aber nicht nur der Steakverkauf , auch die Aktionen gegen den Hormonstand , auf die sich Gruppen der Bauernopposition schon vorbereitet hatten , <b>fielen<b> <b>ins<b> <b>Wasser<b> . Die Fleischexporteure der USA wollten ihrerseits die " Grüne Woche " zur " Aufklärung " nutzen .
@@ -18,7 +18,7 @@ The data comes in tsv files and every line has the following format:
 
 > Instance id \t VID type \t label \t text
 
-So the first column contains the id (```T890202.28.4077``` in the example), the second the VID type (```in wasser fallen```), the third the label (```figuratively```) and the fourth the sentence with either the instance of the VID type or its literal counterpart. The parts of the target expression are marked with the ```<b>``` tag (```<b>fielen<b> <b>ins<b> <b>Wasser<b>```). In addition to that every instance comes with two context sentences. This means, we assume that another process has already pre-identified the target expressions and the systems only need to decide on the correct reading. There will be four possible labels: ```figuratively```, ```literally```, ```undecidable``` and ```both```. The first two should be self-explanatory. The label ```undecidable``` was used by the annotators if it was not possible to disambiguate an instance given the context. The label ```both``` was applied when both the literal and the idiomatic readings were active. But since in more than 99% of the cases it was either either literal or idiomatic, at the end it basically can be treated as a binary task.
+So the first column contains the id (```T890202.28.4077``` in the example), the second the VID type (```in wasser fallen```), the third the label (```figuratively```) and the fourth the sentence with either the instance of the VID type or its literal counterpart. The parts of the target expression are marked with the ```<b>``` tag (```<b>fielen</b> <b>ins</b> <b>Wasser</b>```). In addition to that every instance comes with two context sentences. This means, we assume that another process has already pre-identified the target expressions and the systems only need to decide on the correct reading. There will be four possible labels: ```figuratively```, ```literally```, ```undecidable``` and ```both```. The first two should be self-explanatory. The label ```undecidable``` was used by the annotators if it was not possible to disambiguate an instance given the context. The label ```both``` was applied when both the literal and the idiomatic readings were active. But since in more than 99% of the cases it was either either literal or idiomatic, at the end it basically can be treated as a binary task.
 
 ## The timeline
 
@@ -26,7 +26,7 @@ So the first column contains the id (```T890202.28.4077``` in the example), the 
 - Training data ready: May 15, 2021
 - Test data ready: June 23, 2021
 - Evaluation end: July 30, 2021
-- Paper submission due, July 15, 2021
+- Paper submission due: July 15, 2021
 - Camera ready due: August 10, 2021
 - Konvens converence: September 6-10, 2021
 
