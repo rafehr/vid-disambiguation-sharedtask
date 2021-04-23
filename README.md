@@ -11,7 +11,7 @@ The identification of verbal multiword expressions (VMWEs) is a well known chall
 The shared task data consists of 9906 sentences with either an instance of a German VID type or its literal counterpart. The set of VID types was pre-selected, thus it constitutes a lexical sample data set. It is a merger of the [COLF-VID](https://www.aclweb.org/anthology/2020.figlang-1.29.pdf) and the [German SemEval-2013 task 5b](https://www.aclweb.org/anthology/S13-2007.pdf) data sets. Consider this example:
 
 ```
-T890202.28.4077	in wasser fallen	figuratively	Der Streit ums Hormonfleisch zwischen USA und EG provozierte den Polizeieinsatz . Aber nicht nur der Steakverkauf , auch die Aktionen gegen den Hormonstand , auf die sich Gruppen der Bauernopposition schon vorbereitet hatten , <b>fielen<b> <b>ins<b> <b>Wasser<b> . Die Fleischexporteure der USA wollten ihrerseits die " Grüne Woche " zur " Aufklärung " nutzen .
+T890202.28.4077	in wasser fallen	figuratively	Der Streit ums Hormonfleisch zwischen USA und EG provozierte den Polizeieinsatz . Aber nicht nur der Steakverkauf , auch die Aktionen gegen den Hormonstand , auf die sich Gruppen der Bauernopposition schon vorbereitet hatten , <b>fielen</b> <b>ins</b> <b>Wasser</b> . Die Fleischexporteure der USA wollten ihrerseits die " Grüne Woche " zur " Aufklärung " nutzen .
 ```
 
 The data comes in tsv files and every line has the following format:
@@ -34,7 +34,7 @@ So the first column contains the id (```T890202.28.4077``` in the example), the 
 
 The participating teams will be required to submit the test data with the predictions made by their systems. This will be the format of the test data:
 
-```T861224.44.1377	auf tisch liegen	NONE	Band drei vom " Kapital " , die Nummer 25 der blauen Marx-Engels-Werke aus dem Ost-Berliner Dietz-Verlag , wird aufgeschlagen . Ganz weit hinten , so daß das Buch im kräftigem Pappeinband nicht richtig <b>auf<b> dem <b>Tisch<b> <b>liegen<b> will . " Die Klassen " heißt das letzte Kapitel .```
+```T861224.44.1377	auf tisch liegen	NONE	Band drei vom " Kapital " , die Nummer 25 der blauen Marx-Engels-Werke aus dem Ost-Berliner Dietz-Verlag , wird aufgeschlagen . Ganz weit hinten , so daß das Buch im kräftigem Pappeinband nicht richtig <b>auf</b> dem <b>Tisch</b> <b>liegen</b> will . " Die Klassen " heißt das letzte Kapitel .```
 
 It is the same as the training data with the only difference being that in place of the label one can find the placeholder ```NONE```. These placeholders are to be replaced by the labels the systems predict.
 
