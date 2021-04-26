@@ -25,7 +25,7 @@ So the first column contains the id (```T890202.28.4077``` in the example), the 
 - Trial data ready: April 23, 2021
 - Training data ready: May 15, 2021
 - Test data ready: June 23, 2021
-- Evaluation end: July 30, 2021
+- Evaluation end: June 30, 2021
 - Paper submission due: July 15, 2021
 - Camera ready due: August 10, 2021
 - Konvens converence: September 6-10, 2021
