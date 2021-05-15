@@ -1,3 +1,7 @@
+**Update**: Training data (train.tsv, dev.tsv and dev_blind.tsv) now available!
+
+**Official CodaLab site**: https://competitions.codalab.org/competitions/31715
+
 # Shared Task on the Disambiguation of German Verbal Idioms
 
 This is the official repository for the shared task on the disambiguation of German verbal idioms which is organized in connection with [KONVENS 2021](https://konvens2021.phil.hhu.de/). Here you will find all the data necessary to participate in the shared task.
@@ -22,8 +26,8 @@ So the first column contains the id (```T890202.28.4077``` in the example), the 
 
 ## The timeline
 
-- Trial data ready: April 23, 2021
-- Training data ready: May 15, 2021
+- ~~Trial data ready: April 23, 2021~~
+- ~~Training data ready: May 15, 2021~~
 - Test data ready: June 23, 2021
 - Evaluation end: June 30, 2021
 - Paper submission due: July 15, 2021
@@ -38,7 +42,7 @@ The participating teams will be required to submit the test data with the predic
 
 It is the same as the training data with the only difference being that in place of the label one can find the placeholder ```NONE```. These placeholders are to be replaced by the labels the systems predict.
 
-We plan to use [CodaLab](https://codalab.org/) for evaluation, but as of this writing there seem to be some technical difficulties which need to be resolved before we can create the CodaLab website (it is this [issue](https://github.com/codalab/codalab-competitions/issues/2931) we're experiencing). But as soon the CodaLab website is ready we will add a link to it here.
+We will use [CodaLab](https://codalab.org/) for evaluation. This is the official CodaLab site where you will find all the information you need to participate: https://competitions.codalab.org/competitions/31715
 
 ## Organizers
 
