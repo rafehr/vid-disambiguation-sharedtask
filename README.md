@@ -44,6 +44,14 @@ It is the same as the training data with the only difference being that in place
 
 We will use [CodaLab](https://codalab.org/) for evaluation. This is the official CodaLab site where you will find all the information you need to participate: https://competitions.codalab.org/competitions/31715
 
+In addition, we provide the evaluation script ```evaluate.py``` that can be used by the participants to evaluate their systems outside of CodaLab. It takes as input the train set (```train.tsv```), the dev set with the gold labels (```dev.tsv```) and the dev set with the predictions made by the participant's system:
+
+```
+python evaluate.py train.tsv dev.tsv predictions.tsv
+```
+
+It needs the train data in order to determine the VID types unseen during training. The script outputs the F1 score for the literal class for all VID types as well as for the unseen VID types. But only the F1 score for all VID types will be used to determine the ranking of the systems.
+
 ## Organizers
 
 - [Rafael Ehren](https://www.isi.hhu.de/bereiche-des-institutes/abteilung-fuer-computerlinguistik/unser-team/computerlinguistik?tt_address%5Bfunktion%5D=19133&tt_address%5Bperson%5D=16061&cHash=f19f3068205fd390e30e2dc392ac23bd)
