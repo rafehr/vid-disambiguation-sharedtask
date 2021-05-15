@@ -1,3 +1,5 @@
+**Update**: Training data (train.tsv, dev.tsv and dev_blind.tsv) now available!
+
 # Shared Task on the Disambiguation of German Verbal Idioms
 
 This is the official repository for the shared task on the disambiguation of German verbal idioms which is organized in connection with [KONVENS 2021](https://konvens2021.phil.hhu.de/). Here you will find all the data necessary to participate in the shared task.
