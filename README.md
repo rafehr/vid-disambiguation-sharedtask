@@ -1,4 +1,5 @@
 **Update**: Training data (train.tsv, dev.tsv and dev_blind.tsv) now available!
+**Official CodaLab site**: https://competitions.codalab.org/competitions/31715
 
 # Shared Task on the Disambiguation of German Verbal Idioms
 
@@ -40,7 +41,7 @@ The participating teams will be required to submit the test data with the predic
 
 It is the same as the training data with the only difference being that in place of the label one can find the placeholder ```NONE```. These placeholders are to be replaced by the labels the systems predict.
 
-We will use [CodaLab](https://codalab.org/) for evaluation. This is the official CodaLab competition site where you will find all the information you need to participate: https://competitions.codalab.org/competitions/31715
+We will use [CodaLab](https://codalab.org/) for evaluation. This is the official CodaLab site where you will find all the information you need to participate: https://competitions.codalab.org/competitions/31715
 
 ## Organizers
 
