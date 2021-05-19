@@ -1,4 +1,6 @@
-**Update**: Training data (train.tsv, dev.tsv and dev_blind.tsv) now available!
+**Update (19.05.21)**: There have been some duplicate ids in the dataset. Those have been removed.
+
+**Update (15.05.21)**: Training data (train.tsv, dev.tsv and dev_blind.tsv) now available!
 
 **Official CodaLab site**: https://competitions.codalab.org/competitions/31715
 
