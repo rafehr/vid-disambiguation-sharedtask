@@ -1,3 +1,5 @@
+**Update (14.07.21)**: Labeled test data (test.tsv) now available!
+
 **Update (22.06.21)**: Test data (test_blind.tsv) now available!
 
 **Update (19.05.21)**: There have been some duplicate ids in the dataset. Those have been removed.
