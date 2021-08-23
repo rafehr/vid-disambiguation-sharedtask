@@ -1,3 +1,5 @@
+**Update (23.08.2021)**: The program for the shared task workshop now can be found below.
+
 **Update (14.07.21)**: Labeled test data (test.tsv) now available!
 
 **Update (22.06.21)**: Test data (test_blind.tsv) now available!
@@ -7,6 +9,18 @@
 **Update (15.05.21)**: Training data (train.tsv, dev.tsv and dev_blind.tsv) now available!
 
 **Official CodaLab site**: https://competitions.codalab.org/competitions/31715
+
+## Shared task workshop program (September 6th, 14:00 - 17:00):
+
+|Timeslot|Talk|
+|:--------|:----|
+|14:00 - 14:20| Introduction (Rafael Ehren, Laura Kallmeyer, Timm Lichte, Jakub Waszczuk)|
+|14:20 - 14:50| Shallow Context Analysis for German Idiom Detection (Miriam Amin, Peter Fankhauser, Marc Kupietz, Roman Schneider)
+|14:50 - 15:00| Break
+|15:00 - 15:30| Cracking a Walnut with a Sledgehammer: XLM-RoBERTa for German Verbal Idiom Disambiguation Tasks (Franziska Pannach, Tillmann Dönicke)
+|15:30 - 16:00| Verbal Idioms: Concrete Nouns in Abstract Contexts (Jean Charbonnier, Christian Wartena)
+|16:00 - 16:10| Break
+|16:10 - 17:00| Informal discussion
 
 # Shared Task on the Disambiguation of German Verbal Idioms
 
